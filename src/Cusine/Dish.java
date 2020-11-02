@@ -1,4 +1,4 @@
-package MainSystem;
+package Cusine;
 
 public class Dish {
 	

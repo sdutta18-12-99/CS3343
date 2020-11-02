@@ -1,8 +1,17 @@
-package MainSystem;
+package Persons;
 import java.io.*;
 import java.util.*;
 
+import Cusine.Dish;
+import MainSystem.Dishes;
+
+
 public class Chef {
+	
+	/*
+	 * 
+	 * This need some modification, also the dish class
+	 */
 	
 	public static ArrayList<String> input = new ArrayList<String>();
 	
