@@ -2,6 +2,9 @@ package MainSystem;
 import java.io.*;
 import java.util.*;
 
+import Cusine.Dish;
+
+
 public class Chef {
 	
 	public static ArrayList<String> input = new ArrayList<String>();
