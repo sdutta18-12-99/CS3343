@@ -1,0 +1,16 @@
+=== FOR INTERNAL USE ONLY ===
+
+Current flow of the program:
+	Enters the orders into the Reception
+	The reception should
+		-> convert the orders into a list of Dishes to be made
+		-> Make a priority queue for the dishes
+		-> Pass to kitchen
+	The kitchen should
+		-> assign minimum number of chefs to perform the task
+		-> Return the execution plan
+			sequence
+			finishing time
+			number of cooks
+			
+		DONE
