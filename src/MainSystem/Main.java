@@ -16,7 +16,8 @@ public class Main {
 				System.out.println("Order appended");
 			}
 			scanner.close();
-			reception.getListOfDishes();
+			
+			// reception.getListOfDishes();
 		}
 		catch (FileNotFoundException e) {
 			e.printStackTrace();
