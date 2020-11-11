@@ -47,14 +47,6 @@ public class Reception {
 	}
 	
 	public void getListOfDishes(){
-		/*
-		for (Dish d : this.input_dish)
-		{
-			System.out.println(d.get_name() + 
-					", start time= " + d.get_starttime() +
-					", type = " + d.get_type());
-		}
-		*/
 		// priority queue is implemented as a heap.
 		while (input_dish.size() > 0) {
 			Dish polled = input_dish.poll();

@@ -1,0 +1,19 @@
+=== 11/11/2020 Temporary documentation ===
+
+1. The priority queue
+	=> basically, I just override the comparator of the Dish class.
+	=> The dish type has the first priority.
+	   Dish type: 
+	 		appetizer = 0
+	 		main = 1
+	 		desert = 2
+	=> The incoming time has the second priority
+	   First come first served.
+	=> There is an allowance variable in each Dish class
+	   Dickson : allowance is the time permitted for dishes to delay start the cooking
+	   => I think this variable is being considered in the schedule generation function.
+
+2. A cooking schedule shall be generated in the Kitchen class.
+	=> Just get an instance of the reception class,
+		You can get the Dishes one by one. 
+ 
